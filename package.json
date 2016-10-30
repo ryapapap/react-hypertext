@@ -4,7 +4,7 @@
   "description": "React components to enable hypertext.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ryapapap/draft-editor.git"
+    "url": "https://github.com/ryapapap/react-hypertext.git"
   },
   "main": "./dist/hypertext.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "react",
     "react-components",
     "hypertext",
-    "creative-writing",
+    "creative-writing"
   ],
   "author": "Ryan Patterson",
   "license": "MIT",
