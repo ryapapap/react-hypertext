@@ -1,0 +1,33 @@
+{
+  "name": "react-hypertext",
+  "version": "0.1.1",
+  "description": "React components to enable hypertext.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryapapap/draft-editor.git"
+  },
+  "main": "./dist/hypertext.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src/ --out-dir dist/",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "react-components",
+    "hypertext",
+    "creative-writing",
+  ],
+  "author": "Ryan Patterson",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-plugin-transform-class-properties": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0"
+  }
+}
